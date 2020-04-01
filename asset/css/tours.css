@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+html body{
+    overflow-x: hidden;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+.cover{
+    object-fit: cover;
+}
+
+
+
+/*Tour Packages Starts Here*/
+
+.how-section1{
+    margin-top:-5%;
+    padding: 10%;
+}
+
+@media screen and (max-width: 500px) {
+    .how-section1{
+        margin-top:15%;
+        padding: 10%;
+    }
+}
+.how-section1 h4{
+    color: #ffa500;
+    font-weight: bold;
+    font-size: 30px;
+}
+.how-section1 p{
+
+    font-size: 20px;
+}
+.how-section1 .subheading{
+    color: #13799a;
+    font-size: 20px;
+}
+.how-section1 .row
+{
+    margin-top: 5%;
+}
+.how-img
+{
+    text-align: center;
+}
+.how-img img{
+    width: 80%;
+}
+
+
+.tour-text{
+    max-width: 90%;
+}
+
+@media screen and (max-width: 500px) {
+    .tour-text{
+        max-width: 100%;
+    }
+
+}
+
+
+
+/*Tour Packages Ends Here*/
